@@ -1,9 +1,10 @@
 import './App.css';
 
 function App() {
+  const name = 'Anand';
   return (
     <>
-      <h>Hello world</h>
+      <h1>Hello world</h1>
 
       <p>Testing sonar qube</p>
     </>
