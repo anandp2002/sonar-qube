@@ -25,9 +25,6 @@ jobs:
 
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@v2
-        with:
-          organization: Anand P
-          projectKey: ${{secrets.SONAR_KEY}}
-          projectName: sonar-qube
+
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
